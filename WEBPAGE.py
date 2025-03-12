@@ -99,7 +99,7 @@ def main():
         st.query_params.update(track_rating=None)
 
     st.markdown("---")
-    st.write("Your feedback is valuable to us.")
+    st.write("Your feedback is valuable to us. We’re always working to make CookDoor better for you. Share your thoughts and help us improve!")
     
 
     
