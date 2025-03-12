@@ -57,11 +57,11 @@ def main():
         ("👍 Good", "#00aaff", "Good",
          "https://g.page/r/CQgRycFYSUcaEBM/review"),
         ("😐 Average", "#cccc00", "Average",
-         "https://forms.gle/9tSBdH7emrGxJ2Z39?utm_source=email&utm_medium=review_request&utm_campaign=average"),
+         "https://forms.gle/QMbVFha4UNsSVTHE6"),
         ("👎 Bad", "#cc6600", "Bad",
-         "https://forms.gle/BXnXipFeZ29vStuQA?utm_source=email&utm_medium=review_request&utm_campaign=bad"),
+         "https://forms.gle/QMbVFha4UNsSVTHE6"),
         ("❌ Poor", "#cc0000", "Poor",
-         "https://forms.gle/BXnXipFeZ29vStuQA?utm_source=email&utm_medium=review_request&utm_campaign=poor")
+         "https://forms.gle/QMbVFha4UNsSVTHE6")
     ]
     
     # Create rating buttons with proper parameter tracking
