@@ -53,7 +53,7 @@ def main():
     
     rating_buttons = [
         ("🌟 Excellent", "#00ff00", "Excellent", 
-         "https://g.page/r/CQgRycFYSUcaEBM/review"),
+         "https://g.page/r/CQgRycFYSUcaEBM/review?utm_source=email&utm_medium=review_request&utm_campaign=excellent"),
         ("👍 Good", "#00aaff", "Good",
          "https://g.page/r/CQgRycFYSUcaEBM/review"),
         ("😐 Average", "#cccc00", "Average",
