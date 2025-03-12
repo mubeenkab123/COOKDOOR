@@ -44,9 +44,9 @@ def update_rating_counts(rating):
     except Exception as e:
         st.error(f"Error updating ratings: {str(e)}")
 def main():
-    st.set_page_config(page_title="We Value Your Feedback - Yourhotelname", layout="centered")
+    st.set_page_config(page_title="We Value Your Feedback - Cook Door", layout="centered")
     
-    st.title("Thank You for Choosing Orotti Restaurent!")
+    st.title("Thank You for Choosing Cook Door!")
     st.markdown("---")
     
     st.subheader("Rate Your Experience")
@@ -99,27 +99,11 @@ def main():
         st.query_params.update(track_rating=None)
 
     st.markdown("---")
-    st.write("We hope you had a great experience with us! To show our appreciation, we’d like to offer you a FREE travel guide PDF for Thrissur, which includes:")
+    st.write("Your feedback is valuable to us.")
     
-    st.markdown("""
-    - **Commuting Tips**  
-    - **Suggested Itinerary**  
-    - **Top Places to Visit**  
-    - **Best Restaurants**  
-    - **And much more!**  
-    """)
+
     
-    with st.form("customer_info"):
-        name = st.text_input("Enter your name")
-        email = st.text_input("Enter your email (optional) to receive the PDF")
-        submitted = st.form_submit_button("Submit")
-        
-        if submitted:
-            if name:
-                save_customer_info(name, email)
-                st.success("Thank you! We will send you the travel guide PDF shortly.")
-            else:
-                st.error("Please enter your name to submit.")
+   
 
 if __name__ == "__main__":
     main()
