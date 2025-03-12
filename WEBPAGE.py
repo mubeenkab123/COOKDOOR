@@ -53,9 +53,9 @@ def main():
     
     rating_buttons = [
         ("🌟 Excellent", "#00ff00", "Excellent", 
-         "https://g.page/r/CYs8l7uEbQo4EBM/review?utm_source=email&utm_medium=review_request&utm_campaign=excellent"),
+         "https://g.page/r/CQgRycFYSUcaEBM/review"),
         ("👍 Good", "#00aaff", "Good",
-         "https://g.page/r/CYs8l7uEbQo4EBM/review?utm_source=email&utm_medium=review_request&utm_campaign=good"),
+         "https://g.page/r/CQgRycFYSUcaEBM/review"),
         ("😐 Average", "#cccc00", "Average",
          "https://forms.gle/9tSBdH7emrGxJ2Z39?utm_source=email&utm_medium=review_request&utm_campaign=average"),
         ("👎 Bad", "#cc6600", "Bad",
